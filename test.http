@@ -1,0 +1,8 @@
+### Enqueue hello world
+POST http://localhost:3010/hello-world
+
+### Enqueue heavy-computing
+POST http://localhost:3010/heavy-computing?number=2
+
+### Enqueue retryable
+POST http://localhost:3010/retryable

@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  redis:
+    container_name: montetalks-redis
+    image: redis:6
+    restart: always
+    ports:
+      - 5050:6379
