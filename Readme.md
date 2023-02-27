@@ -2,6 +2,10 @@
 
 Minimal setup for Bullmq with Bull arena and Bull-board.
 
+Watch here: https://www.youtube.com/watch?v=wAEMXVcRbgU
+
+[![Thumbnail](https://i3.ytimg.com/vi/wAEMXVcRbgU/hqdefault.jpg "Montetalks")](https://www.youtube.com/watch?v=wAEMXVcRbgU)
+
 ## Requirements to run
 
 Node.js v14+
@@ -10,7 +14,7 @@ Node.js v14+
 npm install
 ```
 
-Docker
+Docker (for redis instance)
 
 ```
 docker-compose up
@@ -39,5 +43,5 @@ POST http://localhost:3010/heavy-computing?number=2
 POST http://localhost:3010/retryable
 ```
 
-Recommended `REST Client` for VSC so you can use `.http` files.
+Recommended [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) for VSC so you can use `.http` files.
 
